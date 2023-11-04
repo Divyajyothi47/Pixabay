@@ -1,0 +1,134 @@
+*{
+    font-family: Open Sans,system-ui;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+}
+main >div{
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_640.jpg");
+    height: 570px;
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+header{
+    /* position:fixed; */
+    display: flex;
+    align-items: flex-end;
+}
+header div+div{
+    width: 79%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    margin: 15px;
+    border-radius: 30px 30px 30px 30px;
+    height: 50px;
+    width: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    background: none;
+}
+button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+button:hover{
+    background-color: hsla(10deg, 10%, 80%, 0.2);
+}
+.b{
+    border-style: none;
+}
+.a{
+    background-color: rgb(52, 147, 52);
+}
+.a:hover{
+    background-color: hsla(126, 64%, 50%, 0.9);
+}
+svg{
+    height: auto;
+    width: 40%;
+    color:azure;
+    margin-left: 36px;
+    margin-top: 17px;
+}
+
+img{
+    width: 399px;
+}
+body{
+    overflow-x: hidden;
+}
+
+#b{
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    font-size: 45px;
+    color: aliceblue;
+}
+#c{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    font-size:19px;
+    color: #fff;
+}
+.search{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    height: 58px;
+    width: 60%;
+    border-radius: 30px 30px 30px 30px;
+    border-style: none;
+}
+.images{
+    top: 305px;
+    left: 1130px;
+    height: 50px;
+    width: 10%;
+    font-weight: 600;
+    background: none;
+}
+.images:hover{
+    background-color: hsla(10deg, 10%, 50%, 0.1);
+}
+.d{
+    left: 370px;
+    top: 316px;
+    font-size: 17px;
+    color: gray;
+    font-weight: 490;
+}
+.icon{
+    position: absolute;
+    top: 317px;
+    left: 335px;
+    size: 800px;
+}
+#section{
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+section>h4{
+    font-weight: 500;
+    color: rgb(115, 114, 114);
+}
+#child{
+    color: rgb(53, 152, 53);
+    text-decoration: none;
+    font-weight: 500;
+}
+section+p{
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+footer{
+    height: 200px;
+    margin-bottom: 180px;
+    margin-left: 80px;
+}
